@@ -1,0 +1,29 @@
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    min-height: 715px;
+}
+
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header_subtitle {
+
+}
