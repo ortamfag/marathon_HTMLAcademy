@@ -1,15 +1,18 @@
-* {
-    font-family: 'Montserrat', sans-serif;
-    color: #533738;
-    font-weight: 400;
+html{
+    overflow-x: hidden;
 }
 
-body {
+*{
     margin: 0;
     padding: 0;
 }
 
-/*Navigation bar */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #533738;
+    background: #E5E5E5;
+    margin: auto;
+}
 
 nav{
     width: 100%;
@@ -49,7 +52,7 @@ nav{
 
 header{
     margin: 0 auto;
-    min-height: 810px;
+    min-height: 835px;
     background-image: url(images/header.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -104,9 +107,6 @@ header{
 /*About us */
 
 
-.about {
-    background: #E5E5E5;
-}
 
 .title_about {
     position: relative;
@@ -115,31 +115,35 @@ header{
     font-size: 30px;
     line-height: 50px;
     font-weight: 400;
-    text-transform: uppercase
+    text-transform: uppercase;
+
+    margin-top: 65px;
 }
 
 .description_about {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-}
 
-.img_description_about {
-    margin-left: 184px;
-}
+    width: 528px;
+    height: 330px;
 
-.description_about {
-    max-width: 528px;
-    max-height: 330px;
+    margin-left:60px;
 
-    margin-left: 62px;
     
 }
 
+.img_description_about{
+    padding-right:50px
+}
+
 .img_and_description{
-    display:flex;
+    margin-top: 70px;
+    
+    margin-right:120px;
+
+    display: flex;
+    justify-content: center;
 }
 
 /*About us */
-
-
