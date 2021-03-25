@@ -251,11 +251,9 @@ header {
 
     padding-top: 50px;
 
-}
+    text-transform: uppercase;
 
-.our-team-title{
 }
-
 
 .enumeration{
 
@@ -286,4 +284,101 @@ header {
 }
 
 /* Наша команда*/
+
+/* Как мы работаем*/
+
+.how-works {
+    margin-top: 35px;
+}
+
+#how-works {
+    text-transform: uppercase;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+
+    text-align: center;
+}
+
+#eclipse{
+    color: #ffff;
+    background: #8D7370;
+    border-radius: 50%;
+    width:70px;
+    height:70px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+
+.steps {
+    display: flex; 
+
+    justify-content: space-around;
+
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+    padding-bottom: 80px;
+}
+
+#step-1{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    width: 240px;
+
+    text-align: center;
+
+}
+
+#step-2{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    width:285px;
+
+    text-align: center;
+
+
+}
+
+#step-3{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    width: 285px;
+
+    text-align: center;
+
+
+}
+
+#step-4{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    width: 285px;
+
+    text-align: center;
+
+}
+
+/* Как мы работаем*/
 
