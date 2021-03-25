@@ -9,6 +9,7 @@ body {
     
 }
 
+
 img {
     max-width: 100%;
     height: auto;
@@ -381,4 +382,110 @@ header {
 }
 
 /* Как мы работаем*/
+
+/* Отзывы*/
+
+.reviews-title{
+    text-align: center;
+}
+
+#reviews-title{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+
+    text-transform: uppercase;
+
+}
+
+.main-reviews{
+    display: flex;
+}
+
+.main-reviews-img{
+    display: flex;
+    flex-direction: column;
+}
+#main-reviews-img-1{
+    padding-bottom: 20px;
+}
+
+.main-reviews-description{
+    width: 407px;
+    height: 335px;
+
+    margin-right:20px;
+}
+
+.main-reviews-description p{
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.main-reviews-arrow{
+    color: #ffff;
+    background: #CC8B86;
+    border-radius: 50%;
+    width:72px;
+    height:72px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+
+    align-self: center;
+}
+
+#anna {
+    margin-top: 40px;
+}
+
+#main3 {
+    margin-top: 40px;
+}
+
+#main2 {
+    margin-top: 40px;
+}
+
+#main1 {
+    margin-bottom: 40px;
+}
+/* Отзывы*/
+
+/* Заявка*/
+
+.application {
+    background: #8D7370;
+    display: flex;
+}
+
+.application-title {
+    text-transform: uppercase;
+    
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.application-subtitle{
+    opacity: 60%;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.application-img {
+    text-align:right;
+}
+
+
+/* Заявка*/
 
