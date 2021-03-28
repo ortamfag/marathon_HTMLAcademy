@@ -484,8 +484,117 @@ header {
 
 .application-img {
     text-align:right;
+
+    margin-right: 200px;
+
+    margin-left:20px;
+
+    width: 100%;
 }
 
 
+#application-title{
+    color: #fff;
+}
+
+#application-subtitle{
+    color:#fff;
+    opacity: 60%;
+
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.application-subtitle{
+    width:500px;
+}
+
+.application-description-form{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.text-input{
+    width: 508px;
+    height: 35px;
+
+    background: #8D7370;
+
+    border: 0px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+input {
+    outline:none;
+}
+
+
+    input[type="text"]::-webkit-input-placeholder { color: #F6EDE9; }
+    input[type="text"]:-ms-input-placeholder { color: #F6EDE9; }
+    input[type="text"]::-ms-input-placeholder { color: #F6EDE9; }
+    input[type="text"]::placeholder { color: #F6EDE9; } 
+
+    input[type="tel"]::-webkit-input-placeholder { color: #F6EDE9; }
+    input[type="tel"]:-ms-input-placeholder { color: #F6EDE9; }
+    input[type="tel"]::-ms-input-placeholder { color: #F6EDE9; }
+    input[type="tel"]::placeholder { color: #F6EDE9; } 
+
+    input:focus::-webkit-input-placeholder { color:transparent; }
+    input:focus:-moz-placeholder { color:transparent; }
+    input:focus::-moz-placeholder { color:transparent; }
+    input:focus:-ms-input-placeholder { color:transparent; }
+
+    input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+    input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+    input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+    input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+    input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+    input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+    input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+    input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+#first-form{
+    padding-bottom: 35px;
+}
+
+#second-form{
+    padding-bottom: 31px;
+}
+
 /* Заявка*/
+
+/* Подвал*/
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+
+    flex-direction: row;
+}
+
+#footer-first{
+    margin-left: 100px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+#footer-third{
+    margin-right:100px;
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+#footer-second{
+
+    margin-right: 650px;
+
+    margin-top: 37px;
+    margin-bottom: 37px;
+}
+
+/* Подвал*/
 
